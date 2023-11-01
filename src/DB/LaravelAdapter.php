@@ -10,7 +10,7 @@ use wisnubaldas\Datatables\Query;
  * Class LaravelAdapter
  * @package wisnubaldas\Datatables\DB
  */
-class LaravelAdapter extends \DBAdapter
+class LaravelAdapter extends DBAdapter
 {
     /**
      * LaravelAdapter constructor.
