@@ -2,7 +2,7 @@
 
 namespace Ozdemir\Datatables\DB;
 
-use DB;
+use Illuminate\Database\Capsule\Manager as DB;
 use Ozdemir\Datatables\Query;
 
 
