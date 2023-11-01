@@ -16,7 +16,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "Ozdemir\\Datatables\\": "src/"
+      "wisnubaldas\\Datatables\\": "src/"
     }
   },
   "autoload-dev": {
