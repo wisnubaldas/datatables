@@ -1,11 +1,11 @@
-<?php namespace wisnubaldas\datatables\DB;
+<?php namespace wisnubaldas\Datatables\DB;
 
 use Db;
-use wisnubaldas\datatables\Query;
+use wisnubaldas\Datatables\Query;
 
 /**
  * Class PSAdapter
- * @package wisnubaldas\datatables\DB
+ * @package wisnubaldas\Datatables\DB
  */
 class PSAdapter extends DBAdapter
 {

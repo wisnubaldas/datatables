@@ -1,15 +1,15 @@
 <?php
 
-namespace wisnubaldas\datatables;
+namespace wisnubaldas\Datatables;
 
-use wisnubaldas\datatables\DB\DatabaseInterface;
-use wisnubaldas\datatables\Iterators\ColumnCollection;
-use wisnubaldas\datatables\Http\Request;
+use wisnubaldas\Datatables\DB\DatabaseInterface;
+use wisnubaldas\Datatables\Iterators\ColumnCollection;
+use wisnubaldas\Datatables\Http\Request;
 
 /**
  * Class Query Builder
  *
- * @package wisnubaldas\datatables
+ * @package wisnubaldas\Datatables
  */
 class QueryBuilder
 {

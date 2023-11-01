@@ -1,14 +1,14 @@
 <?php
 
-namespace wisnubaldas\datatables\DB;
+namespace wisnubaldas\Datatables\DB;
 
-use wisnubaldas\datatables\Column;
-use wisnubaldas\datatables\Query;
+use wisnubaldas\Datatables\Column;
+use wisnubaldas\Datatables\Query;
 use PDO;
 
 /**
  * Class PGSQL // PostgreSql Adapter
- * @package wisnubaldas\datatables\DB
+ * @package wisnubaldas\Datatables\DB
  */
 class PGSQL extends DBAdapter
 {

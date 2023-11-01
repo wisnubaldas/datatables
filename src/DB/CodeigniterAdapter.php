@@ -1,12 +1,12 @@
 <?php
 
-namespace wisnubaldas\datatables\DB;
+namespace wisnubaldas\Datatables\DB;
 
-use wisnubaldas\datatables\Query;
+use wisnubaldas\Datatables\Query;
 
 /**
  * Class CodeigniterAdapter
- * @package wisnubaldas\datatables\DB
+ * @package wisnubaldas\Datatables\DB
  */
 class CodeigniterAdapter extends DBAdapter
 {

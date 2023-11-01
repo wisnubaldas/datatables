@@ -1,6 +1,6 @@
 <?php
 
-namespace wisnubaldas\datatables\Http;
+namespace wisnubaldas\Datatables\Http;
 
 use Traversable;
 

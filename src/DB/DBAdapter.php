@@ -1,12 +1,12 @@
 <?php
 
 
-namespace wisnubaldas\datatables\DB;
+namespace wisnubaldas\Datatables\DB;
 
 
-use wisnubaldas\datatables\Column;
-use wisnubaldas\datatables\Iterators\ColumnCollection;
-use wisnubaldas\datatables\Query;
+use wisnubaldas\Datatables\Column;
+use wisnubaldas\Datatables\Iterators\ColumnCollection;
+use wisnubaldas\Datatables\Query;
 
 abstract class DBAdapter implements DatabaseInterface
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace wisnubaldas\datatables;
+namespace wisnubaldas\Datatables;
 
 /**
  * Class Query
 
- * @package wisnubaldas\datatables
+ * @package wisnubaldas\Datatables
  */
 class Query
 {

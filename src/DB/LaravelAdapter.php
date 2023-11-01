@@ -1,16 +1,16 @@
 <?php
 
-namespace wisnubaldas\datatables\DB;
+namespace wisnubaldas\Datatables\DB;
 
 use Illuminate\Database\Capsule\Manager as DB;
-use wisnubaldas\datatables\Query;
+use wisnubaldas\Datatables\Query;
 
 
 /**
  * Class LaravelAdapter
- * @package wisnubaldas\datatables\DB
+ * @package wisnubaldas\Datatables\DB
  */
-class LaravelAdapter extends DBAdapter
+class LaravelAdapter extends \DBAdapter
 {
     /**
      * LaravelAdapter constructor.

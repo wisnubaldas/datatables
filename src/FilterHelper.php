@@ -1,13 +1,13 @@
 <?php
 
-namespace wisnubaldas\datatables;
+namespace wisnubaldas\Datatables;
 
 
-use wisnubaldas\datatables\DB\DatabaseInterface;
+use wisnubaldas\Datatables\DB\DatabaseInterface;
 
 /**
  * Class FilterHelper
- * @package wisnubaldas\datatables
+ * @package wisnubaldas\Datatables
  */
 class FilterHelper
 {

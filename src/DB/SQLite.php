@@ -1,13 +1,13 @@
 <?php
 
-namespace wisnubaldas\datatables\DB;
+namespace wisnubaldas\Datatables\DB;
 
-use wisnubaldas\datatables\Query;
+use wisnubaldas\Datatables\Query;
 use PDO;
 
 /**
  * Class SQLite
- * @package wisnubaldas\datatables\DB
+ * @package wisnubaldas\Datatables\DB
  */
 class SQLite extends DBAdapter
 {

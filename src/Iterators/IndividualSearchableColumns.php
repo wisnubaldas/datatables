@@ -1,6 +1,6 @@
 <?php
 
-namespace wisnubaldas\datatables\Iterators;
+namespace wisnubaldas\Datatables\Iterators;
 
 
 use FilterIterator;
@@ -8,7 +8,7 @@ use FilterIterator;
 /**
  * Class IndividualSearchableColumns
  *
- * @package wisnubaldas\datatables\Iterators
+ * @package wisnubaldas\Datatables\Iterators
  */
 class IndividualSearchableColumns extends FilterIterator
 {

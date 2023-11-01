@@ -1,15 +1,15 @@
 <?php
 
-namespace wisnubaldas\datatables\Iterators;
+namespace wisnubaldas\Datatables\Iterators;
 
 use ArrayIterator;
-use wisnubaldas\datatables\Column;
+use wisnubaldas\Datatables\Column;
 
 /**
  * Class ColumnCollection
  *
  * @method Column current()
- * @package wisnubaldas\datatables
+ * @package wisnubaldas\Datatables
  */
 class ColumnCollection extends ArrayIterator
 {

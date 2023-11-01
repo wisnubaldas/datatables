@@ -1,30 +1,30 @@
 <?php
 
-namespace wisnubaldas\datatables;
+namespace wisnubaldas\Datatables;
 
 use Closure;
-use wisnubaldas\datatables\DB\DatabaseInterface;
-use wisnubaldas\datatables\Http\Request;
+use wisnubaldas\Datatables\DB\DatabaseInterface;
+use wisnubaldas\Datatables\Http\Request;
 
 /**
  * Class Datatables
  *
- * @package wisnubaldas\datatables
+ * @package wisnubaldas\Datatables
  */
 class Datatables
 {
     /**
-     * @var \wisnubaldas\datatables\DB\DatabaseInterface
+     * @var \wisnubaldas\Datatables\DB\DatabaseInterface
      */
     protected $db;
 
     /**
-     * @var \wisnubaldas\datatables\Iterators\ColumnCollection
+     * @var \wisnubaldas\Datatables\Iterators\ColumnCollection
      */
     protected $columns;
 
     /**
-     * @var \wisnubaldas\datatables\QueryBuilder
+     * @var \wisnubaldas\Datatables\QueryBuilder
      */
     protected $builder;
 
@@ -51,7 +51,7 @@ class Datatables
     /**
      * Datatables constructor.
      *
-     * @param \wisnubaldas\datatables\DB\DatabaseInterface $db
+     * @param \wisnubaldas\Datatables\DB\DatabaseInterface $db
      * @param Request $request
      */
     public function __construct(DatabaseInterface $db, Request $request = null)
