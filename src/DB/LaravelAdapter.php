@@ -1,14 +1,14 @@
 <?php
 
-namespace Ozdemir\Datatables\DB;
+namespace wisnubaldas\datatables\DB;
 
 use Illuminate\Database\Capsule\Manager as DB;
-use Ozdemir\Datatables\Query;
+use wisnubaldas\datatables\Query;
 
 
 /**
  * Class LaravelAdapter
- * @package Ozdemir\Datatables\DB
+ * @package wisnubaldas\datatables\DB
  */
 class LaravelAdapter extends DBAdapter
 {

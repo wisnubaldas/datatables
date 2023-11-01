@@ -1,15 +1,15 @@
 <?php
 
-namespace Ozdemir\Datatables;
+namespace wisnubaldas\datatables;
 
-use Ozdemir\Datatables\DB\DatabaseInterface;
-use Ozdemir\Datatables\Iterators\ColumnCollection;
-use Ozdemir\Datatables\Http\Request;
+use wisnubaldas\datatables\DB\DatabaseInterface;
+use wisnubaldas\datatables\Iterators\ColumnCollection;
+use wisnubaldas\datatables\Http\Request;
 
 /**
  * Class Query Builder
  *
- * @package Ozdemir\Datatables
+ * @package wisnubaldas\datatables
  */
 class QueryBuilder
 {

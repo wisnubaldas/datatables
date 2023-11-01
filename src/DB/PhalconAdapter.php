@@ -1,13 +1,13 @@
 <?php
 
-namespace Ozdemir\Datatables\DB;
+namespace wisnubaldas\datatables\DB;
 
-use Ozdemir\Datatables\Query;
+use wisnubaldas\datatables\Query;
 use \Phalcon\Db;
 
 /**
  * Class PhalconAdapter
- * @package Ozdemir\Datatables\DB
+ * @package wisnubaldas\datatables\DB
  */
 class PhalconAdapter extends DBAdapter
 {

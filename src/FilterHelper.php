@@ -1,13 +1,13 @@
 <?php
 
-namespace Ozdemir\Datatables;
+namespace wisnubaldas\datatables;
 
 
-use Ozdemir\Datatables\DB\DatabaseInterface;
+use wisnubaldas\datatables\DB\DatabaseInterface;
 
 /**
  * Class FilterHelper
- * @package Ozdemir\Datatables
+ * @package wisnubaldas\datatables
  */
 class FilterHelper
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace Ozdemir\Datatables;
+namespace wisnubaldas\datatables;
 
 /**
  * Trait Explode
 
- * @package Ozdemir\Datatables
+ * @package wisnubaldas\datatables
  */
 trait Explode
 {

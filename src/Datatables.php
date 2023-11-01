@@ -1,30 +1,30 @@
 <?php
 
-namespace Ozdemir\Datatables;
+namespace wisnubaldas\datatables;
 
 use Closure;
-use Ozdemir\Datatables\DB\DatabaseInterface;
-use Ozdemir\Datatables\Http\Request;
+use wisnubaldas\datatables\DB\DatabaseInterface;
+use wisnubaldas\datatables\Http\Request;
 
 /**
  * Class Datatables
  *
- * @package Ozdemir\Datatables
+ * @package wisnubaldas\datatables
  */
 class Datatables
 {
     /**
-     * @var \Ozdemir\Datatables\DB\DatabaseInterface
+     * @var \wisnubaldas\datatables\DB\DatabaseInterface
      */
     protected $db;
 
     /**
-     * @var \Ozdemir\Datatables\Iterators\ColumnCollection
+     * @var \wisnubaldas\datatables\Iterators\ColumnCollection
      */
     protected $columns;
 
     /**
-     * @var \Ozdemir\Datatables\QueryBuilder
+     * @var \wisnubaldas\datatables\QueryBuilder
      */
     protected $builder;
 
@@ -51,7 +51,7 @@ class Datatables
     /**
      * Datatables constructor.
      *
-     * @param \Ozdemir\Datatables\DB\DatabaseInterface $db
+     * @param \wisnubaldas\datatables\DB\DatabaseInterface $db
      * @param Request $request
      */
     public function __construct(DatabaseInterface $db, Request $request = null)

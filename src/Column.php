@@ -1,11 +1,11 @@
 <?php
 
-namespace Ozdemir\Datatables;
+namespace wisnubaldas\datatables;
 
 /**
  * Class Column
  *
- * @package Ozdemir\Datatables
+ * @package wisnubaldas\datatables
  */
 class Column
 {

@@ -1,12 +1,12 @@
 <?php
 
 
-namespace Ozdemir\Datatables\DB;
+namespace wisnubaldas\datatables\DB;
 
 
-use Ozdemir\Datatables\Column;
-use Ozdemir\Datatables\Iterators\ColumnCollection;
-use Ozdemir\Datatables\Query;
+use wisnubaldas\datatables\Column;
+use wisnubaldas\datatables\Iterators\ColumnCollection;
+use wisnubaldas\datatables\Query;
 
 abstract class DBAdapter implements DatabaseInterface
 {

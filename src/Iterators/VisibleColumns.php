@@ -1,6 +1,6 @@
 <?php
 
-namespace Ozdemir\Datatables\Iterators;
+namespace wisnubaldas\datatables\Iterators;
 
 
 use FilterIterator;
@@ -8,7 +8,7 @@ use FilterIterator;
 /**
  * Class VisibleColumns
  *
- * @package Ozdemir\Datatables\Iterators
+ * @package wisnubaldas\datatables\Iterators
  */
 class VisibleColumns extends FilterIterator
 {

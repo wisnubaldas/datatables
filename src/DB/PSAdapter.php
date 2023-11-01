@@ -1,11 +1,11 @@
-<?php namespace Ozdemir\Datatables\DB;
+<?php namespace wisnubaldas\datatables\DB;
 
 use Db;
-use Ozdemir\Datatables\Query;
+use wisnubaldas\datatables\Query;
 
 /**
  * Class PSAdapter
- * @package Ozdemir\Datatables\DB
+ * @package wisnubaldas\datatables\DB
  */
 class PSAdapter extends DBAdapter
 {
